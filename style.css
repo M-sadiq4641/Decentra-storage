@@ -93,6 +93,10 @@
 
 /* font ends here  */
 
+.text-black{
+  color: black!important;
+}
+
 .mt-10{
   margin-top: 8rem!important;
   @media (max-width:1200px) {
