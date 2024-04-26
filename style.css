@@ -1,0 +1,217 @@
+.text-xs {
+  font-size: 12px !important;
+  line-height: 16px !important;
+}
+
+.text-sm {
+  font-size: 14px !important;
+  line-height: 20px !important;
+}
+
+.text-md {
+  font-size: 16px !important;
+  line-height: 24px !important;
+}
+
+.text-lg {
+  font-size: 18px !important;
+  line-height: 28px !important;
+}
+
+.text-xl {
+  font-size: 20px !important;
+  line-height: 28px !important;
+}
+
+.text-2xl {
+  font-size: 24px !important;
+  line-height: 32px !important;
+}
+
+.text-3xl {
+  font-size: 30px !important;
+  line-height: 36px !important;
+}
+
+.text-4xl {
+  font-size: 36px !important;
+  line-height: 40px !important;
+}
+
+.text-5xl {
+  font-size: 50px !important;
+}
+
+.text-6xl {
+  font-size: 60px !important;
+}
+
+.text-7xl {
+  font-size: 72px !important;
+}
+
+.text-8xl {
+  font-size: 96px !important;
+}
+
+.text-9xl {
+  font-size: 128px !important;
+}
+
+/* font weidth */
+
+.font-thin {
+  font-weight: 100 !important;
+}
+.font-extralight {
+  font-weight: 200 !important;
+}
+.font-light {
+  font-weight: 300 !important;
+}
+.font-normal {
+  font-weight: 400 !important;
+}
+.font-medium {
+  font-weight: 500 !important;
+}
+.font-semibold {
+  font-weight: 600 !important;
+}
+.font-bold {
+  font-weight: 700 !important;
+}
+.font-extrabold {
+  font-weight: 800v;
+}
+.font-black {
+  font-weight: 900 !important;
+}
+
+/* font ends here  */
+
+@font-face {
+  font-family: suisse;
+  src: url(/public/fonts/fonnts.com-Suisse_Intl_Bold.ttf);
+}
+
+@font-face {
+  font-family: suisse-regular;
+  src: url(/public/fonts/SuisseIntl-Regular.ttf);
+}
+p {
+  font-family: suisse-regular;
+}
+
+button {
+  font-family: suisse-regular !important;
+}
+
+li {
+  font-family: suisse-regular !important;
+}
+
+* {
+  font-family: suisse;
+  color: white !important;
+}
+
+body {
+  background-color: #020110 !important;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.text-hover-grey:hover {
+  color: #3c3b47 !important;
+}
+
+.button-white {
+  border: 2px solid white !important;
+  color: black !important;
+  background-color: white !important;
+}
+
+.button-hover-white:hover {
+  border: 2px solid white !important;
+  color: black !important;
+  background-color: white !important;
+}
+
+.button-transparent {
+  border: 2px solid white !important;
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.button-hover-transparent:hover {
+  border: 2px solid white !important;
+  background-color: transparent !important;
+  color: white !important;
+}
+
+.button-black{
+  background-color: #020010!important;
+  border: 2px solid black;
+  color: white!important;
+}
+
+/* navbar  */
+
+.hero-wrapper {
+  background: linear-gradient(180deg, #020010 48.74%, #0251fe 100%);
+  min-height: 180vh;
+}
+
+.navbar-wrapper {
+  border-top: 0.5px solid rgba(255, 255, 255, 0.473);
+  border-bottom: 0.5px solid rgba(255, 255, 255, 0.473);
+}
+
+.navbar-li {
+  @media (max-width: 1200px) {
+    font-size: 15px !important;
+  }
+}
+
+.navbar-h2 {
+  @media (max-width: 576px) {
+    font-size: 19px !important;
+  }
+}
+
+/* hero  */
+
+.waghera {
+  width: 100% !important;
+  background-color: #0251fe !important;
+  min-height: 100px !important;
+border-bottom-left-radius: 30px;
+border-top-right-radius: 30px;
+border-bottom-right-radius: 30px;
+}
+
+.hero-img-top {
+  @media (max-width: 1200px) {
+    width: 30%;
+    margin-top: 5rem;
+  }
+}
+
+.hero-h1{
+  @media (max-width:992px) {
+    font-size: 40px!important;
+  }
+
+  @media (max-width:768px) {
+    font-size: 25px!important;
+  }
+
+}
+.hero-button{
+  @media (max-width:768px) {
+    font-size: 10px!important;
+  }
+}
