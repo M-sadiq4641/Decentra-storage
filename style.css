@@ -31,6 +31,9 @@
 .text-3xl {
   font-size: 30px !important;
   line-height: 36px !important;
+  @media (max-width:1200px) {
+    font-size: 20px!important;
+  }
 }
 
 .text-4xl {
@@ -90,6 +93,13 @@
 
 /* font ends here  */
 
+.mt-10{
+  margin-top: 8rem!important;
+  @media (max-width:1200px) {
+    margin-top: 5rem!important;
+  }
+}
+
 @font-face {
   font-family: suisse;
   src: url(/public/fonts/fonnts.com-Suisse_Intl_Bold.ttf);
@@ -127,6 +137,8 @@ body {
 .cursor-pointer {
   cursor: pointer;
 }
+
+
 
 .text-hover-grey:hover {
   color: #3c3b47 !important;
@@ -384,4 +396,12 @@ border-bottom-right-radius: 30px;}
   @media (max-width:1400px) {
     font-size: 14px;
   }
+}
+
+/* roadmap  */
+
+.roadmap-div{
+  border-radius: 30px;
+  min-height: 350px!important;
+  background-color: #0251FE;
 }
