@@ -26,6 +26,10 @@
 .text-2xl {
   font-size: 24px !important;
   line-height: 32px !important;
+
+  @media (max-width:576px) {
+    font-size: 22px!important;
+  }
 }
 
 .text-3xl {
@@ -454,4 +458,16 @@ background: linear-gradient(106.49deg, #0066FF 2.87%, #090357 99.54%);
 
 .footer-p{
   color: #0251FE!important;
+}
+
+.footer-ca{
+  border-top: 1px solid white!important;
+  border-bottom: 1px solid white!important;
+
+  p{
+    @media (max-width:768px) {
+      word-break: break-all;
+      font-size: 16px!important;
+    }
+  }
 }
