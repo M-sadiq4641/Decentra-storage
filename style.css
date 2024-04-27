@@ -109,6 +109,10 @@
   src: url(/public/fonts/fonnts.com-Suisse_Intl_Bold.ttf);
 }
 
+.text-grey{
+  color: #808087!important;
+}
+
 @font-face {
   font-family: suisse-regular;
   src: url(/public/fonts/SuisseIntl-Regular.ttf);
@@ -408,4 +412,46 @@ border-bottom-right-radius: 30px;}
   border-radius: 30px;
   min-height: 350px!important;
   background-color: #0251FE;
+}
+
+/* ultra  */
+
+.ultra-wrapper{
+background: linear-gradient(106.49deg, #0066FF 2.87%, #090357 99.54%);
+
+}
+.ultra-top-img{
+  @media (max-width:1200px) {
+    width: 40%!important;
+  }
+}
+
+.ultra-h2{
+  @media (max-width:992px) {
+    font-size: 30px!important;
+  }
+
+  @media (max-width:576px) {
+    font-size: 20px!important;
+  }
+}
+
+.ultra-p{
+  @media (max-width:992px) {
+    font-size: 12px!important;
+    font-weight: 500!important;
+  }
+  @media (max-width:576px) {
+    font-size: 10px!important;
+  }
+}
+.ultra-rounded-div{
+  border-top-left-radius: 0px!important;
+  border-radius: 30px;
+}
+
+/* footer section  */
+
+.footer-p{
+  color: #0251FE!important;
 }
